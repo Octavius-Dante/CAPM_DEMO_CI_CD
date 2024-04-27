@@ -1,5 +1,5 @@
-using { anubhav.db } from '../db/datamodel';
-using { anubhav.cds } from '../db/CDSViews';
+using { dancap.db } from '../db/datamodel';
+using { dancap.cds } from '../db/CDSViews';
 
 
 service CatalogService @(path : 'CatalogService', requires: 'authenticated-user') {
