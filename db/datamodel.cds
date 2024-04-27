@@ -1,5 +1,5 @@
 namespace dancap.db;
-
+// new changes  - -
 using { cuid, managed, temporal, Currency } from '@sap/cds/common';
 using { dancap.common } from './commons';
 
