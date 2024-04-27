@@ -3,6 +3,8 @@ namespace dancap.db;
 using { cuid, managed, temporal, Currency } from '@sap/cds/common';
 using { dancap.common } from './commons';
 
+
+// new cahnges second version 
 context master {
     
     entity businesspartner {
