@@ -47,8 +47,8 @@ annotate CatalogService.PurchaseOrder with @(
         },
     ],
     UI.HeaderInfo:{
-        TypeName : 'Dante Purchase--Order',
-        TypeNamePlural: 'Dante Purchase--Orders',
+        TypeName : 'Dante Purchase-X-Order',
+        TypeNamePlural: 'Dante Purchase-X-Orders',
         Title : {
             $Type : 'UI.DataField',
             Value : PO_ID,
