@@ -4,7 +4,7 @@ using { cuid, managed, temporal, Currency } from '@sap/cds/common';
 using { dancap.common } from './commons';
 
 
-// new cahnges second version 
+// new cahnges second version - 2.0 
 context master {
     
     entity businesspartner {

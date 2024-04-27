@@ -1,4 +1,4 @@
-using { anubhav.db.master  } from '../db/datamodel';
+using { dancap.db.master  } from '../db/datamodel';
 
 service demoservice {
 
