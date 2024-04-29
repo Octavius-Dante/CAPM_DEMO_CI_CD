@@ -12,7 +12,7 @@ build-parameters:
 modules:
 # start of UI Module code
   - name: dancap-ui
-    type: nodejs
+    type: nodejsnpm ins
     path: app
     parameters:
       buildpack: nodejs_buildpack
