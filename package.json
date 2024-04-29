@@ -29,13 +29,15 @@
   "sapux": [
     "app/purchaseorderapp"
   ],
+  
   "cds": {
+    "hana": {
+      "deploy-format": "hdbtable",
+      "syntax": "hdi"
+  },
     "requires": {
       "[hybrid]": {
-        "db": "hana",
-        "hana": {
-          "deploy-format": "hdbtable"
-        }
+        "db": "hana"
       },
       "auth": {
         "[production]": {
